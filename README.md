@@ -12,7 +12,9 @@ In this project, I performed large-scale sentiment analysis of streaming Twitter
 
 # Environment 
 
-The Streaming and Training code was performed with Spark on a GCP Dataproc Cluster. Please note that the cluster was instantiated with the following command to allow for compatability with Spark NLP package and install the necessary jar files on each worker node. 
+The Streaming and Training code was performed with Spark on a GCP Dataproc Cluster. Please note that the cluster was instantiated with the following command to allow for compatability with Spark NLP package and install the necessary jar files on each worker node. Pleas sure the following link for more information.
+
+https://nlp.johnsnowlabs.com/docs/en/install#gcp-dataproc-support
 
 """
 
@@ -69,6 +71,8 @@ https://spark.apache.org/docs/latest/ml-classification-regression.html
 https://www.geeksforgeeks.org/generating-word-cloud-python/
 
 https://stackoverflow.com/questions/38839924/how-to-combine-n-grams-into-one-vocabulary-in-spark
+
+https://nlp.johnsnowlabs.com/docs/en/install#gcp-dataproc-support
 
 https://nlp.johnsnowlabs.com/docs/en/transformers#bertsentenceembeddings
 
